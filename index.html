@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Objetos</title>
+</head>
+<body>
+  <h1>Metodos e propriedades!</h1>
+  <p>  </p>
+  <p></p>
+  <h2> Métodos </h2><p>
+    Métodos são ações que um objeto pode realizar. No mundo real, um celular pode realizar várias ações, como ligar, desligar, tocar música e tirar fotos..<p></p>
+      Exemplo: celular<p></p>
+Se tivermos um objeto chamado CELULAR, ele pode ter métodos como:<p></p>
+celular.ligar() → Liga o celular.<p></p>
+celular.desligar() → Desliga o celular.<p></p>
+celular.tirar_foto() → Tira uma foto.<p></p>
+celular.reproduzir_musica() → Reproduz música.<p></p>
+*Como isso funciona no código?<p></p>
+No JavaScript, podemos criar esse objeto assim:<p></p>
+Criamos uma classe chamada Celular, que define os métodos.<p></p>
+Os métodos são ações que o celular pode fazer, como ligar, desligar, tirar fotos e tocar música.<p></p>
+Criamos um objeto meuCelular e chamamos os métodos com meuCelular.metodo().<p></p>
+
+
+
+<script> 
+  class Celular {
+  ligar() {
+      console.log("Celular ligado!");
+  }
+
+  desligar() {
+      console.log("Celular desligado!");
+  }
+
+  tirarFoto() {
+      console.log("Foto capturada!");
+  }
+
+  reproduzirMusica() {
+      console.log("Tocando música!");
+  }
+}
+
+// Criando um celular e chamando os métodos
+const meuCelular = new Celular();
+meuCelular.ligar();
+meuCelular.tirarFoto();
+meuCelular.reproduzirMusica();
+meuCelular.desligar(); 
+
+</script>
+<img src="metodocel1.jpg" alt="exemplo de codigo" width="450" height="450">.
+<img src="metodocel2.jpg" alt="exemplo de codigo" width="450" height="450">.
+
+
+
+  </p>
+  <h2>Propriedades </h2><p>
+    <h4>Propriedades do objeto<p></p>
+Um carro real tem propriedades como peso e cor:<p></p>
+
+car.name = Fiat, car.model = 500, car.weight = 850kg, car.color = branco.<p></p>
+
+Objetos de carro têm as mesmas propriedades , mas os valores diferem de carro para carro.<p></p>
+  </p></h4>
+
+  <script> </script>
+  
+</body>
+</html>
